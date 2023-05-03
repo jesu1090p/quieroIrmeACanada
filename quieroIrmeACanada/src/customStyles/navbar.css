@@ -1,0 +1,43 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    opacity: 1;
+}
+.navbar {
+    background-color: #FFF!important;
+    opacity: 0.9;
+    font-size: 1.2rem;   
+}
+
+.navbar-brand {
+    font-size: 1.2rem!important;
+    opacity: 1;
+    
+}
+
+.nav-text, .nav-link {
+    color: #D72229!important;
+    text-transform: uppercase;
+}
+
+.navbar-tooltip {
+    --bs-tooltip-bg: var(--bs-danger);
+}
+
+ul li {
+    padding-right: 0.5rem;
+    font-weight:400;
+    border-radius: 10px;
+    transition: all 0.8s ease-in;
+}
+
+ul li a:hover {
+    background-color: #D72229;
+    color: #FFF!important;
+    border-radius: 10px;
+    transition: fade-out;
+}
+
+.dropdown-item:hover {
+    background-color: #D72229;
+    padding: 0.2;
+}
