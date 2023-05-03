@@ -25,19 +25,21 @@
 
 ul li {
     padding-right: 0.5rem;
-    font-weight:400;
-    border-radius: 10px;
-    transition: all 0.8s ease-in;
+    font-weight:400;    
 }
 
-ul li a:hover {
-    background-color: #D72229;
-    color: #FFF!important;
-    border-radius: 10px;
+.nav-link {
+    border-top: solid 2px #FFF!important;
+    border-bottom: solid 2px #FFF!important;
     transition: fade-out;
+    transition: all 0.4s ease-out;
+}
+.nav-link:hover {
+    border-bottom: solid 2px #D72229!important;
+    transition: ease-in;
 }
 
 .dropdown-item:hover {
     background-color: #D72229;
-    padding: 0.2;
+    color: #FFF;
 }
