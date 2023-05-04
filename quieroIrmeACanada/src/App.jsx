@@ -1,3 +1,4 @@
+import Jumbotron from './components/Jumbotron';
 import NavigationMenu from './components/siteLayout/navbar';
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
   return (
     <>
       <NavigationMenu />
+      <Jumbotron/>
     </>
   )
 }

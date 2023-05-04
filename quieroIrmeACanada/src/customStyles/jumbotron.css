@@ -1,0 +1,17 @@
+h1, p {
+    font-family: 'Poppins', sans-serif;
+    color: #201E1F;
+}
+
+.canada, .opcionesDeInmigracion {
+    color: #D72229;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
