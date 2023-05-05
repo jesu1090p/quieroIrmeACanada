@@ -1,0 +1,25 @@
+* {
+    font-family: 'Poppins';
+}
+
+.reasons {
+    border-radius: 100px 100px 0 0px;
+    background-color: brown;
+    color: aliceblue;
+}
+
+.cards {
+    border-radius: 0px 0px 100px 100px;
+}
+
+.hover-test {
+    transition: transform 0.3s;
+}
+.hover-test:hover {
+    transform: scale(1.02);
+    opacity: 1;
+}
+
+.hover-test img:hover {
+    opacity: 0.8;
+}

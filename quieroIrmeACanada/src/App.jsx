@@ -1,5 +1,6 @@
 import Jumbotron from './components/Jumbotron';
 import NavigationMenu from './components/siteLayout/navbar';
+import Card from './components/card'
 
 function App() {
   
@@ -7,6 +8,7 @@ function App() {
     <>
       <NavigationMenu />
       <Jumbotron/>
+      <Card/>
     </>
   )
 }

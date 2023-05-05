@@ -4,7 +4,7 @@
 }
 .navbar {
     background-color: #FFF!important;
-    opacity: 0.9;
+    opacity: 1;
     font-size: 1.2rem;   
 }
 
@@ -31,8 +31,7 @@ ul li {
 .nav-link {
     border-top: solid 2px #FFF!important;
     border-bottom: solid 2px #FFF!important;
-    transition: fade-out;
-    transition: all 0.4s ease-out;
+    transition: all 0.4s ease-in-out;
 }
 .nav-link:hover {
     border-bottom: solid 2px #D72229!important;

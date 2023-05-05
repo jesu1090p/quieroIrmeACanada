@@ -3,7 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "colors": ["#201E1F", "#D72229", "#FFF", "#F4F4F9"],
+  "colors": [
+    "#201E1F",
+    "#D72229",
+    "#FFF",
+    "#F4F4F9"
+  ],
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
@@ -11,6 +16,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
