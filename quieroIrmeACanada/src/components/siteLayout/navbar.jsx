@@ -1,12 +1,10 @@
 import '../../customStyles/navbar.css';
-const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
 
 function NavigationMenu() {
   return (
     <nav className="navbar fixed-top navbar-expand-lg" aria-label="Quiero Irme a Canada">
     <div className="container">
-      <a className="navbar-brand nav-text" href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="navbar-tooltip" data-bs-title="Inicio" data-bs-tooltip-bg="bg-muted">Destino Canad&aacute;!<img src="https://img.icons8.com/emoji/96/000000/maple-leaf-emoji.png" width="48" alt="Quiero Irme a Canada - Logo" /></a>
+      <a className="navbar-brand nav-text" href="/" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="navbar-tooltip" data-bs-title="Inicio" data-bs-tooltip-bg="bg-muted">Destino Canad&aacute;!<img src="https://img.icons8.com/emoji/96/000000/maple-leaf-emoji.png" width="48" alt="Quiero Irme a Canada - Logo" /></a>
       <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>

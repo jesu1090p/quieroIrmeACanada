@@ -3,20 +3,20 @@ import '../customStyles/cards.css';
 
 function Card() {
     return (
-      <><div className="container-fluid content-space-2 content-space-t-xl-3 content-space-b-lg-3 bg-danger reasons">
+      <><div className="container-fluid content-space-2 content-space-t-xl-3 content-space-b-lg-3 bg-info reasons">
         <div className="container-fluid px-5 py-5">
           <div className="w-md-75 w-lg-50 text-center mx-md-auto mt-5 mb-5">
-            <h2 className=''>Razones para inmigrar a <span className="text-warning">Canad&aacute;</span></h2>
+            <h2 className=''>Razones para inmigrar a <span className="text-muted">Canad&aacute;</span></h2>
           </div>
           <div className="text-center mb-10">          
             <ul className="list-inline list-checked list-checked-primary">
-              <li className="list-inline-item fs-4"><i className="bi bi-check2-circle text-warning ms-1"/> Demanda de trabajadores calificados </li>
-              <li className="list-inline-item fs-4"><i className="bi bi-check2-circle text-warning ms-1"/> Excelente sistema de salud</li>
-              <li className="list-inline-item fs-4"><i className="bi bi-check2-circle text-warning ms-1"/> Educación de alta calidad</li>          
-              <li className="list-inline-item fs-4"><i className="bi bi-check2-circle text-warning ms-1"/> Diversidad cultural</li>
-              <li className="list-inline-item fs-4"><i className="bi bi-check2-circle text-warning ms-1"/> Estabilidad política y econ&oacute;mica</li>          
+              <li className="list-inline-item fs-4"><i className="bi bi-check2-circle text-muted ms-1"/> Demanda de trabajadores calificados </li>
+              <li className="list-inline-item fs-4"><i className="bi bi-check2-circle text-muted ms-1"/> Excelente sistema de salud</li>
+              <li className="list-inline-item fs-4"><i className="bi bi-check2-circle text-muted ms-1"/> Educación de alta calidad</li>          
+              <li className="list-inline-item fs-4"><i className="bi bi-check2-circle text-muted ms-1"/> Diversidad cultural</li>
+              <li className="list-inline-item fs-4"><i className="bi bi-check2-circle text-muted ms-1"/> Estabilidad política y econ&oacute;mica</li>          
             </ul>
-            <p className="small"><a className='btn btn-outline-warning' href="http://" target="_blank" rel="noopener noreferrer">Ver m&aacute;s <i className='bi bi-box-arrow-up-right'></i></a> </p>
+            <p className="small"><a className='btn btn-primary' href="../../public/razones-para-inmigrar.html" target="_blank" rel="noopener noreferrer">Ver m&aacute;s <i className='bi bi-box-arrow-up-right'></i></a> </p>
           </div>
         </div>
       </div>
